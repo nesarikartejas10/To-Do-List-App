@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" sans-serif;
+}
+
+.container {
+  width: 380px;
+  margin: auto;
+  padding: 11px;
+  background-color: rgb(1, 112, 112);
+  color: white;
+  text-align: center;
+  margin-top: 44px;
+  border-radius: 10px;
+}
+
+.inputTask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputTask input {
+  width: 70%;
+  padding: 9px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.inputTask button {
+  width: 70px;
+  height: 44px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+  margin-left: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.taskData {
+  display: flex;
+  justify-content: space-between;
+  margin: 14px;
+}
+
+.taskData p {
+  font-size: 23px;
+  margin-left: 8px;
+}
+
+.icons i {
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 21px;
+}
+
+.icons #editIcon:hover {
+  color: greenyellow;
+}
+
+.icons #deleteIcon:hover {
+  color: orangered;
+}
+
+.msg {
+  margin: 10px;
+}
